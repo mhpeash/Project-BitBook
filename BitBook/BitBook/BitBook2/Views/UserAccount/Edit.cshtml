@@ -1,0 +1,54 @@
+﻿@using BitBook2.Models
+@model BitBook2.UserAccount
+
+@{
+    
+    ViewBag.Title = "Edit";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Reset Password and Info</h2>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+    <div>
+        <form method="POST" id="saveForm">
+
+
+            <p>
+                <input type="hidden" id="UserId" value="@Model.UserId" />
+                First Name : <input type="text" name="firstNale" value="@Model.FirstNale" />
+            </p>
+            <p>
+                Last Name : <input type="text" name="LastName" value="@Model.LastName" />
+            </p>
+            <p>
+                Email : <input type="text" name="Email" value="@Model.Email" />
+            </p>
+            <p>
+                User Name: <input type="text" name="UserName" value="@Model.UserName" />
+            </p>
+            <p>
+                Password: <input type="text" name="Password" value="@Model.Password" />
+            </p>
+
+            <p>
+                <input type="submit" value="Save" />
+
+            </p>
+
+            <p>
+
+                @ViewBag.Message
+            </p>
+        </form>
+    </div>
+    
+
+</body>
+</html>
+

@@ -1,0 +1,127 @@
+﻿@using BitBook2.Models
+﻿@model List<BitBook2.Models.UserProfile>
+@*@model BitBook2.Models.UserProfile*@
+<link href="~/Content/Style.css" rel="stylesheet" />
+    @{
+        ViewBag.Title = "LoggedIn";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    @if (Session["UserId"] != null)
+    {
+     try
+      {
+             @*<img src="/@Model.Image" width="300px" height="200px" />*@
+          <div>
+              @*<h4>Additional Information</h4><hr>*@
+              <img src="/@ViewBag.AdditionalInfo.CoverPhoto" width="1100px" height="300px">
+           
+              @*<ul>Education:@ViewBag.AdditionalInfo.Education</ul>
+            <ul>Location:@ViewBag.AdditionalInfo.Location</ul>*@
+          </div>
+          //Browsing File
+        @*using (Html.BeginForm())
+        {
+            <div>
+    
+                <input type="file" name="file" />&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="Change Cover" name="Command" /><br/>
+            </div>
+        }*@
+
+          <div style="margin-top: -50px">
+              <img src="/@ViewBag.AdditionalInfo.ProfilePhoto" width="200px" height="200px">
+          </div>
+      }
+     catch
+     {
+         ViewBag.Message = "Please Upload Photoes";
+     }
+
+
+
+        <ul>
+            <li>@Html.ActionLink("Settings", "Details", new { id = Session["UserId"] });
+            <li>@Html.ActionLink("Home", "Index2", "UserAccount")</li>
+ 
+            <li>@Html.ActionLink("Profile", "LoggedIn", "UserAccount")</li>
+            <li>@Html.ActionLink("Friends", "AllFriend", "UserAccount")</li>
+            <li>@Html.ActionLink("Friend Requests", "AllFriendRequest", "UserAccount")</li>
+            <li>@Html.ActionLink("Find Friends", "Index", "UserAccount")</li>
+            <li>@Html.ActionLink("Logout", "Logout", "UserAccount")</li>
+        </ul>
+
+
+
+
+        <h2 style="text-align: center; color:cornflowerblue"> @Session["Username"].ToString()</h2>
+        @Html.ActionLink("Details", "Details", new { id = Session["UserId"] });
+        @*<div>
+             @Html.ActionLink("Details", "Details", new { id = Session["UserId"] })
+            <a href="/UserAccount/Edit/@Session["UserId"]">Reset Password </a>
+            <a href="/UserAccount/ChangeCoverPhoto/@Session["UserId"]">Change Cover Picture </a>
+            <a href="/UserAccount/ChangeProfilePhoto/@Session["UserId"]">Change Profile Picture </a>
+            <a href="/UserAccount/AdditionalInfocreate/@Session["UserId"]">Add Additional Information</a>
+            <a href="/UserAccount/EditAdditionalInfo/@Session["UserId"]">Edit Additional Information  </a>
+            </div>*@
+
+        using (Html.BeginForm())
+        {
+        <table>
+
+            <tr>
+                <h3>@Html.Label("What's On Your Mind")</h3>
+                <td>@Html.TextArea("Status")</td>
+                @*<td>><input type="hidden" name="UserId" value="@Model.Session["userid"] " /></td>*@
+            </tr>
+            <tr>
+
+                <td><input type="submit" value="Update Status" /></td>
+
+            </tr>
+
+        </table>
+
+        if (Model != null)
+        {
+        foreach (var status in Model)
+        {
+        <div style="background-color: white;width: 60%;height: 40%;padding: 5px;margin-top: 10px">
+            <h4> @Session["Username"].ToString()</h4><hr>
+            <span style="font-size:16px;margin: 30px;color:green">
+                @status.Status @*<span style="color: blueviolet">@DateTime.Now</span></span>*@
+                <br />
+                <span style="margin-right: 50px"><a class="like-button" href="#">Like</a></span>
+                <a href="/UserAccount/Delete/@status.StatusId">Delete Post</a> <span style="color: blueviolet">@DateTime.Now</span>
+        </div>
+
+        var statusId = status.StatusId;
+        Session["StatusId"] = statusId;
+
+        <hr />
+
+        }
+        }
+        }
+
+
+        <script src="~/Scripts/jquery-2.2.3.js"></script>
+        <script>
+            $(function () {
+                $('.like-button').click(function () {
+                    var obj = $(this);
+                    if (obj.data('liked')) {
+                        obj.data('liked', false);
+                        obj.html('Like');
+                    }
+                    else {
+                        obj.data('liked', true);
+                        obj.html('Unlike');
+                    }
+                });
+            });
+        </script>
+        }
+
+
+        <h4> @Html.ActionLink("Logout", "Logout", "UserAccount")</h4>

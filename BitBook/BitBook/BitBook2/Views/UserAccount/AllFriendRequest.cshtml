@@ -1,0 +1,27 @@
+﻿@model List<BitBook2.Models.Friend>
+@{
+    ViewBag.Title = "AllFriendRequest";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="color:red;">All Friend Request</h2>
+
+
+    @foreach (var friends in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink(friends.Friendname, "Details2", new { id = friends.FriendId })|
+            </td>
+            <td>
+
+                @Html.ActionLink("Confirm", "ConfirmRequest", new { id = friends.FriendId })|
+            </td>
+            <td>
+                @Html.ActionLink("Cancel", "CancelRequest", new { id = friends.FriendId })
+            </td>
+           
+        </tr>
+        <br/>
+    <br>
+    }

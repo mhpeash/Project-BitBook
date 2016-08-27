@@ -1,0 +1,31 @@
+﻿@using BitBook2.Models
+@{
+    ViewBag.Title = "StatusUpdate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Status Update</h2>
+@*@using (Html.BeginForm())
+{
+      <table>
+
+          <tr>
+              <h2>@Html.Label("What's On Your Mind")</h2>
+              <td>@Html.TextArea("Status")</td>
+          </tr>
+          <tr>
+             
+              <td><input type="submit" value="Update Status" /></td>
+          </tr>
+          </table>
+}*@
+<form method="POST">
+    <p>
+       <h4> What's On Your Mind  :</h4> <input type="text" name="Status" />
+    </p>
+    <p>
+        <input type="hidden" name="UserId" value=" @Model.Session[" userid"]"/>
+        <input type="submit" value="Update Status" />
+    </p>
+    
+</form>

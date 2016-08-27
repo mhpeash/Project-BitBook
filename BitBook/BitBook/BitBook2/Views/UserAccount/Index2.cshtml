@@ -1,0 +1,33 @@
+﻿@model List<BitBook2.Models.AllStatus>
+<link href="~/Content/Style.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="color:red;">Welcome To Bit Book</h2>
+
+<ul>
+    <li>@Html.ActionLink("Details", "Details", new { id = Session["UserId"] });
+    <li>@Html.ActionLink("Home", "Index2", "UserAccount")</li>
+    <li>@Html.ActionLink("Profile", "LoggedIn", "UserAccount")</li>
+    <li>@Html.ActionLink("Friends", "AllFriend", "UserAccount")</li>
+    <li>@Html.ActionLink("Friend Requests", "AllFriendRequest", "UserAccount")</li>
+    <li>@Html.ActionLink("Find Friends", "Index", "UserAccount")</li>
+    <li>@Html.ActionLink("Logout", "Logout", "UserAccount")</li>
+</ul>
+<div>
+    @foreach (var status in Model)
+    {
+        <h3 style="color:green;">
+            @Html.ActionLink(status.UserName, "Details2", new { id = status.UserId })
+        </h3>
+        <h3>
+            @status.Status
+            @*@Html.ActionLink(status.Status, "Details2", new { id = status.UserId });*@
+        </h3>
+    
+        <hr />
+    }
+
+</div>

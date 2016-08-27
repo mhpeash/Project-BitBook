@@ -1,0 +1,108 @@
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\BitBook2.dll.config
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\BitBook2.dll
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\BitBook2.pdb
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\EntityFramework.dll
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\EntityFramework.SqlServer.dll
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Helpers.dll
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Mvc.dll
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Razor.dll
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Webpages.Deployment.dll
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Webpages.dll
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Webpages.Razor.dll
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\EntityFramework.xml
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\EntityFramework.SqlServer.xml
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Razor.xml
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Webpages.xml
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Webpages.Deployment.xml
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Webpages.Razor.xml
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Helpers.xml
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\bin\System.Web.Mvc.xml
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\obj\Debug\BitBook2.csprojResolveAssemblyReference.cache
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\obj\Debug\BitBook2.dll
+c:\users\shuvo\documents\visual studio 2013\Projects\BitBook2\BitBook2\obj\Debug\BitBook2.pdb
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\BitBook2.dll.config
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\BitBook2.dll
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\BitBook2.pdb
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\EntityFramework.dll
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\EntityFramework.SqlServer.dll
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Helpers.dll
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Mvc.dll
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Razor.dll
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.dll
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.Razor.dll
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\EntityFramework.xml
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\EntityFramework.SqlServer.xml
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Razor.xml
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.xml
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.Razor.xml
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Helpers.xml
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\bin\System.Web.Mvc.xml
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\obj\Debug\BitBook2.dll
+C:\Users\Bdjobs\Desktop\BitBook2\BitBook2\obj\Debug\BitBook2.pdb
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\BitBook2.dll.config
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\BitBook2.dll
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\BitBook2.pdb
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\EntityFramework.dll
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\EntityFramework.SqlServer.dll
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Helpers.dll
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Mvc.dll
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Razor.dll
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.dll
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.Razor.dll
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\EntityFramework.xml
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\EntityFramework.SqlServer.xml
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Razor.xml
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.xml
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Webpages.Razor.xml
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Helpers.xml
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\bin\System.Web.Mvc.xml
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\obj\Debug\BitBook2.dll
+C:\Users\Mohammad Hasan\Desktop\BitBook2\BitBook2\obj\Debug\BitBook2.pdb
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\BitBook2.dll.config
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\BitBook2.dll
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\BitBook2.pdb
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\EntityFramework.dll
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\EntityFramework.SqlServer.dll
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Helpers.dll
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Mvc.dll
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Razor.dll
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Webpages.dll
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Webpages.Razor.dll
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\EntityFramework.xml
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\EntityFramework.SqlServer.xml
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Razor.xml
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Webpages.xml
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Webpages.Razor.xml
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Helpers.xml
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\bin\System.Web.Mvc.xml
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\obj\Debug\BitBook2.dll
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\obj\Debug\BitBook2.pdb
+C:\Users\Shuvo\Desktop\BitBookFinal\BitBook2\BitBook2\obj\Debug\BitBook2.csprojResolveAssemblyReference.cache
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\BitBook2.dll.config
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\BitBook2.dll
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\BitBook2.pdb
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\EntityFramework.dll
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\EntityFramework.SqlServer.dll
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Helpers.dll
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Mvc.dll
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Razor.dll
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Webpages.dll
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Webpages.Razor.dll
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\EntityFramework.xml
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\EntityFramework.SqlServer.xml
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Razor.xml
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Webpages.xml
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Webpages.Razor.xml
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Helpers.xml
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\bin\System.Web.Mvc.xml
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\obj\Debug\BitBook2.csprojResolveAssemblyReference.cache
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\obj\Debug\BitBook2.dll
+C:\Users\Peash-Desktop\Desktop\New folder\BitBookFinal\BitBook\BitBook2\obj\Debug\BitBook2.pdb

@@ -1,0 +1,59 @@
+﻿@model BitBook2.UserAccount
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>UserAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstNale)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstNale)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+
+
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.UserId }) |*@
+    @*@Html.ActionLink("Back to List", "Index")*@
+        @*@Html.ActionLink("Details", "Details", new { id = Session["UserId"] }) |*@
+        <a href="/UserAccount/Edit/@Session["UserId"]">Reset Password </a> |
+        <a href="/UserAccount/ChangeCoverPhoto/@Session["UserId"]">Change Cover Picture </a> |
+        <a href="/UserAccount/ChangeProfilePhoto/@Session["UserId"]">Change Profile Picture </a> |
+        <a href="/UserAccount/AdditionalInfocreate/@Session["UserId"]">Add Additional Information</a> |
+        <a href="/UserAccount/EditAdditionalInfo/@Session["UserId"]">Edit Additional Information  </a> |
+  
+</p>
